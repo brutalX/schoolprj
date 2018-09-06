@@ -1,0 +1,19 @@
+{
+    "teammembers" : [
+        {
+            "name": "marin",
+            "profession": "web developer",
+            "city" : "toronto"
+        },
+        {
+            "name" : "derek",
+            "professio n" : "web developer",
+            "city" : "brantford"
+        },
+        {
+            "name" : "francis",
+            "profession" : "web developer",
+            "city" : "barrie"
+        }
+    ]
+}

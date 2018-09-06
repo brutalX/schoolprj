@@ -1,0 +1,37 @@
+Temp123456!
+
+
+
+sudo apt-cache search mbstring
+mysql -u root -p
+
+set password for user 'root'@'localhost'=password('Temp123456!');
+
+
+sudo service apache2 restart
+
+
+sudo apt purge phpmyadmin
+
+sudo apt-get install phpmyadmin
+
+
+
+//permission
+
+sudo chown andyg:andyg nameoffile
+//restart apache
+sudo /etc/init.d/apache2 restart
+
+sudo nano 000-default.conf
+
+	write
+
+	Listen 80
+	Listen 8080
+
+	<VirtualHost *:8080>
+		DocumentRoot /var/www/php
+	</VirtualHost 
+
+	

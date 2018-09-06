@@ -1,0 +1,26 @@
+html
+  head
+    title My Site
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.js', integrity='sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=', crossorigin='anonymous')
+    script(src='js/bootstrap.min.js')
+
+  body
+
+  nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      a.navbar-brand(href='/') Navbar
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavAltMarkup', aria-controls='navbarNavAltMarkup', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNavAltMarkup.collapse.navbar-collapse
+        .navbar-nav
+          a.nav-item.nav-link.active(href='/')
+            | Home 
+            span.sr-only (current)
+          a.nav-item.nav-link(href='about') About
+          a.nav-item.nav-link(href='contact') Contact
+  block content        
+
+  
+    

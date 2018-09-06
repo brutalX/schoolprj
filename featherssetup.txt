@@ -1,0 +1,10 @@
+$ mkdir backend
+$ cd backend
+$ feathers generate app
+$ feathers generate service	
+	-mongoose
+	-contact
+	-enter
+	-enter
+$ npm add mongoose-type-email
+$ npm add nodemon --dev

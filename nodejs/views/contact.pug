@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+    .jumbotron
+        h1.text-center Wanna Call me? :)
+    form(method='post' action='contact/send')    
+     .container
+      .row
+       .col-md-6.offset-md-3
+        .form-group
+         input.form-control(type='text' name='name' placeholder='Name')
+        .form-group  
+         input.form-control(type='email' name='email' placeholder='Email')
+        .form-group
+         textarea.form-control(type='message' placeholder='Enter Message')
+        .form-group
+         input.btn.btn-success(type='submit')
+         
+      

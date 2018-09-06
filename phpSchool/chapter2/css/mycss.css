@@ -1,0 +1,39 @@
+body{
+    margin:0 auto;
+    width:52%;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top:40px;
+}
+
+input{
+    margin-top:20px;
+}
+
+.roundedrectangle{
+    background-color: dodgerblue;
+    text-decoration:none;
+    color:white;
+    position:relative;
+    top:10px;
+    padding:8px 50px;
+    border-radius: 20px;
+}
+
+.roundedrectangle:hover{
+    background-color:royalblue;
+}
+
+.bluespan{
+    color:royalblue;
+}
+table.{
+    margin: 20px auto;
+    width: 80%; 
+}
+.greenspan{
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 8px 8px;
+    color:white;
+}

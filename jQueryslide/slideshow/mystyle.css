@@ -1,0 +1,12 @@
+body{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+div#slides{
+display: none;
+}
+img{
+    height: 500px;
+}

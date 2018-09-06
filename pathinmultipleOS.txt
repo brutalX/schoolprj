@@ -1,0 +1,1 @@
+require_once(".." . DIRECTORY_SEPARATOR . $php_path . DIRECTORY_SEPARATOR . "header.php");
